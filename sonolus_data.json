@@ -1,0 +1,56 @@
+{
+    "apps": [
+        {
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups",
+                    "com.apple.developer.associated-domains",
+                    "com.apple.developer.carplay-audio",
+                    "get-task-allow",
+                    "com.apple.developer.game-center",
+                    "com.apple.developer.group-session",
+                    "com.apple.developer.healthkit",
+                    "keychain-access-groups",
+                    "com.apple.developer.networking.multicast",
+                    "aps-environment",
+                    "com.apple.developer.healthkit.access",
+                    "com.apple.developer.applesignin",
+                    "com.apple.developer.siri",
+                    "com.apple.developer.networking.wifi-info"
+                ],
+                "privacy": {
+                    "NSAppleMusicUsageDescription": "This app needs access to your Apple Music library.",
+                    "NSBluetoothAlwaysUsageDescription": "This app requires Bluetooth to connect to accessories.",
+                    "NSBluetoothPeripheralUsageDescription": "This app uses Bluetooth to communicate with peripherals.",
+                    "NSCameraUsageDescription": "This app needs access to your camera for video and photo capture.",
+                    "NSFaceIDUsageDescription": "This app uses Face ID for secure authentication.",
+                    "NSHealthShareUsageDescription": "This app needs access to your health data to display your health stats.",
+                    "NSHealthUpdateUsageDescription": "This app integrates with the Health app to track your health data.",
+                    "NSLocalNetworkUsageDescription": "This app scans the local network for nearby devices.",
+                    "NSMicrophoneUsageDescription": "This app uses the microphone for audio recording.",
+                    "NSMotionUsageDescription": "This app uses motion data to enhance the user experience.",
+                    "NSPhotoLibraryAddUsageDescription": "This app saves photos to your Photo Library.",
+                    "NSPhotoLibraryUsageDescription": "This app needs access to your Photo Library.",
+                    "NSUserTrackingUsageDescription": "This app tracks your usage to provide better service."
+                }
+            },
+            "bundleIdentifier": "com.FosFenes.Sonolus",
+            "developerName": "Sonolus Team",
+            "downloadURL": "https://download.sonolus.com/Sonolus_0.8.11.ipa",
+            "iconURL": "https://sonolus.com/icon.png",
+            "localizedDescription": " 0.8.11 Beta \n \n Added default servers.\nAdded early/late judgment error styles.\nAdded vertical and center judgment error placements.\nAdded result screen to preview BGM in settings.\nAdded description to options in engine configuration.\nAdded upload response support to custom servers.\nImproved UI/UX.\nImproved performance.\nFixed new line not working in text area options on Android.\nFixed SFX decoding error on iOS 12.\nFixed authentication error in custom servers. \n \n Credit: \n Jordyr1 (Modified repository)\n\n",
+            "name": "Sonolus",
+            "versions": [
+                {
+                    "date": "2025-04-04",
+                    "downloadURL": "https://wiki.sonolus.com/release-notes/versions/0.8.11",
+                    "localizedDescription": "Sonolus is a next generation Mobile Rhythm Game that aims to provide maximum freedom to players and level makers.",
+                    "size": 109584189,
+                    "version": "0.8.11 Beta"
+                }
+            ]
+        }
+    ],
+    "author": "",
+    "name": "Sonolus"
+}
