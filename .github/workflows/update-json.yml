@@ -22,8 +22,8 @@ jobs:
       - name: Run update script
         run: python scripts/update_sonolus.py
 
-      - name: Pull latest changes
-        run: git pull origin main
+      - name: Pull latest changes (with rebase)
+        run: git pull --rebase origin main
 
       - name: Commit and push changes
         run: |
