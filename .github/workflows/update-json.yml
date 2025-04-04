@@ -3,6 +3,7 @@ name: Update Sonolus JSON
 on:
   schedule:
     - cron: "0 * * * *"  # every hour
+  workflow_dispatch:  # Allows manual trigger of the workflow
 
 jobs:
   update-json:
