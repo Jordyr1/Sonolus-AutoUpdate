@@ -1,4 +1,3 @@
-# dw about my horrible code lol
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
@@ -63,36 +62,20 @@ def get_sonolus_info():
     current_date = datetime.now().strftime("%Y-%m-%d")
 
     sonolus_data = {
+        "name": "Sonolus (Beta)",
+        "identifier": "com.FosFenes.Sonolus",
         "apps": [
             {
-                "appPermissions": {
-                    "entitlements": [
-                        "com.apple.security.network.client",
-                        "com.apple.developer.networking.wifi-info"
-                    ],
-                    "privacy": {
-                        "NSLocalNetworkUsageDescription": "This app scans the local network for nearby devices."
-                    }
-                },
+                "name": "Sonolus",
                 "bundleIdentifier": "com.FosFenes.Sonolus",
-                "developerName": "Sonolus Team", 
+                "subtitle": f"Sonolus v{fixed_version} Beta",
+                "localizedDescription": f"Sonolus v{fixed_version} Beta\n\n{changelog}\n\nCredit: Jordyr1 (Modified repository)",
                 "downloadURL": download_link,
                 "iconURL": "https://sonolus.com/icon.png",
-                "localizedDescription": f" {version} \n \n {changelog} \n \n Credit: \n Jordyr1 (Modified repository)\n\n",
-                "name": "Sonolus",
-                "versions": [
-                    {
-                        "date": current_date,
-                        "downloadURL": download_link,
-                        "localizedDescription": description,
-                        "size": file_size, 
-                        "version": fixed_version
-                    }
-                ]
+                "version": fixed_version,
+                "size": file_size
             }
-        ],
-        "author": "Sonolus Team", 
-        "name": "Sonolus (Beta)"
+        ]
     }
     with open("sonolus_data.json", "w") as json_file:
         json.dump(sonolus_data, json_file, indent=4)
@@ -100,4 +83,3 @@ def get_sonolus_info():
 
 # profit
 get_sonolus_info()
-
