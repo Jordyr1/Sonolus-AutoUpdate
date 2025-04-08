@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 import json
+import re
 
 def get_sonolus_info():
     url = "https://sonolus.com"
@@ -13,6 +14,7 @@ def get_sonolus_info():
     description = soup.find('p', class_='text-center').text.strip()
 
     version = soup.find('p', class_='font-bold').text.strip()
+    fixed_version = re.search(r'\d+(\.\d+)+', version).group()
   
     release_notes_url = "https://wiki.sonolus.com/release-notes/"
     response = requests.get(release_notes_url)
@@ -84,13 +86,13 @@ def get_sonolus_info():
                         "downloadURL": download_link,
                         "localizedDescription": description,
                         "size": file_size, 
-                        "version": version
+                        "version": fixed_version
                     }
                 ]
             }
         ],
         "author": "Sonolus Team", 
-        "name": "Sonolus"
+        "name": "Sonolus (Beta)"
     }
     with open("sonolus_data.json", "w") as json_file:
         json.dump(sonolus_data, json_file, indent=4)
