@@ -65,35 +65,11 @@ def get_sonolus_info():
             {
                 "appPermissions": {
                     "entitlements": [
-                        "com.apple.security.application-groups",
-                        "com.apple.developer.associated-domains",
-                        "com.apple.developer.carplay-audio",
-                        "get-task-allow",
-                        "com.apple.developer.game-center",
-                        "com.apple.developer.group-session",
-                        "com.apple.developer.healthkit",
-                        "keychain-access-groups",
-                        "com.apple.developer.networking.multicast",
-                        "aps-environment",
-                        "com.apple.developer.healthkit.access",
-                        "com.apple.developer.applesignin",
-                        "com.apple.developer.siri",
+                        "com.apple.security.network.client",
                         "com.apple.developer.networking.wifi-info"
                     ],
                     "privacy": {
-                        "NSAppleMusicUsageDescription": "This app needs access to your Apple Music library.",
-                        "NSBluetoothAlwaysUsageDescription": "This app requires Bluetooth to connect to accessories.",
-                        "NSBluetoothPeripheralUsageDescription": "This app uses Bluetooth to communicate with peripherals.",
-                        "NSCameraUsageDescription": "This app needs access to your camera for video and photo capture.",
-                        "NSFaceIDUsageDescription": "This app uses Face ID for secure authentication.",
-                        "NSHealthShareUsageDescription": "This app needs access to your health data to display your health stats.",
-                        "NSHealthUpdateUsageDescription": "This app integrates with the Health app to track your health data.",
-                        "NSLocalNetworkUsageDescription": "This app scans the local network for nearby devices.",
-                        "NSMicrophoneUsageDescription": "This app uses the microphone for audio recording.",
-                        "NSMotionUsageDescription": "This app uses motion data to enhance the user experience.",
-                        "NSPhotoLibraryAddUsageDescription": "This app saves photos to your Photo Library.",
-                        "NSPhotoLibraryUsageDescription": "This app needs access to your Photo Library.",
-                        "NSUserTrackingUsageDescription": "This app tracks your usage to provide better service."
+                        "NSLocalNetworkUsageDescription": "This app scans the local network for nearby devices."
                     }
                 },
                 "bundleIdentifier": "com.FosFenes.Sonolus",
@@ -105,7 +81,7 @@ def get_sonolus_info():
                 "versions": [
                     {
                         "date": current_date,
-                        "downloadURL": latest_version_url,
+                        "downloadURL": download_link,
                         "localizedDescription": description,
                         "size": file_size, 
                         "version": version
@@ -113,13 +89,12 @@ def get_sonolus_info():
                 ]
             }
         ],
-        "author": "", 
+        "author": "Sonolus Team", 
         "name": "Sonolus"
     }
     with open("sonolus_data.json", "w") as json_file:
         json.dump(sonolus_data, json_file, indent=4)
 
-    print("Saved data.")
 
 # profit
 get_sonolus_info()
