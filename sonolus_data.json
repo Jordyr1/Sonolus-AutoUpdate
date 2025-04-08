@@ -22,11 +22,11 @@
                     "downloadURL": "https://download.sonolus.com/Sonolus_0.8.12.ipa",
                     "localizedDescription": "Sonolus is a next generation Mobile Rhythm Game that aims to provide maximum freedom to players and level makers.",
                     "size": 109605279,
-                    "version": "0.8.12 Beta"
+                    "version": "0.8.12"
                 }
             ]
         }
     ],
     "author": "Sonolus Team",
-    "name": "Sonolus"
+    "name": "Sonolus (Beta)"
 }
