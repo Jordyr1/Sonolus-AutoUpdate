@@ -1,32 +1,16 @@
 {
+    "name": "Sonolus (Beta)",
+    "identifier": "com.FosFenes.Sonolus",
     "apps": [
         {
-            "appPermissions": {
-                "entitlements": [
-                    "com.apple.security.network.client",
-                    "com.apple.developer.networking.wifi-info"
-                ],
-                "privacy": {
-                    "NSLocalNetworkUsageDescription": "This app scans the local network for nearby devices."
-                }
-            },
+            "name": "Sonolus",
             "bundleIdentifier": "com.FosFenes.Sonolus",
-            "developerName": "Sonolus Team",
+            "subtitle": "Sonolus v0.8.12 Beta",
+            "localizedDescription": "Sonolus v0.8.12 Beta\n\nAdded helpful tips.\nAdded clickable author.\nAdded touch abnormality detection.\nAdded opening server item links directly.\nChanged default render mode to lightweight.\nImproved UI/UX.\nImproved performance.\nFixed default servers not working for new players.\nFixed race condition in multiplayer.\nFixed preview BGM not stopping in SFX preview.\n\nCredit: Jordyr1 (Modified repository)",
             "downloadURL": "https://download.sonolus.com/Sonolus_0.8.12.ipa",
             "iconURL": "https://sonolus.com/icon.png",
-            "localizedDescription": " 0.8.12 Beta \n \n Added helpful tips.\nAdded clickable author.\nAdded touch abnormality detection.\nAdded opening server item links directly.\nChanged default render mode to lightweight.\nImproved UI/UX.\nImproved performance.\nFixed default servers not working for new players.\nFixed race condition in multiplayer.\nFixed preview BGM not stopping in SFX preview. \n \n Credit: \n Jordyr1 (Modified repository)\n\n",
-            "name": "Sonolus",
-            "versions": [
-                {
-                    "date": "2025-04-08",
-                    "downloadURL": "https://download.sonolus.com/Sonolus_0.8.12.ipa",
-                    "localizedDescription": "Sonolus is a next generation Mobile Rhythm Game that aims to provide maximum freedom to players and level makers.",
-                    "size": 109605279,
-                    "version": "0.8.12"
-                }
-            ]
+            "version": "0.8.12",
+            "size": 109605279
         }
-    ],
-    "author": "Sonolus Team",
-    "name": "Sonolus (Beta)"
+    ]
 }
