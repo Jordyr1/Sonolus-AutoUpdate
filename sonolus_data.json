@@ -5,12 +5,12 @@
         {
             "name": "Sonolus",
             "bundleIdentifier": "com.FosFenes.Sonolus",
-            "subtitle": "Sonolus v0.8.12 Beta",
-            "localizedDescription": "Sonolus v0.8.12 Beta\n\nAdded helpful tips.\nAdded clickable author.\nAdded touch abnormality detection.\nAdded opening server item links directly.\nChanged default render mode to lightweight.\nImproved UI/UX.\nImproved performance.\nFixed default servers not working for new players.\nFixed race condition in multiplayer.\nFixed preview BGM not stopping in SFX preview.\n\nCredit: Jordyr1 (Modified repository)",
-            "downloadURL": "https://download.sonolus.com/Sonolus_0.8.12.ipa",
+            "subtitle": "Sonolus v0.8.13 Beta",
+            "localizedDescription": "Sonolus v0.8.13 Beta\n\nAdded tips to multiplayer.\nAdded description and banner to collection.\nImproved UI/UX.\nImproved performance.\nImproved saving items.\nImproved creating and submitting replay at result screen.\nImproved result screen graphs.\nImproved background blur performance.\nFixed audio desync in some situations on Android.\nFixed max FPS not working in some situations on Android.\nFixed skin sprite transform not working in result screen bucket graphs.\nFixed particle with duration greater than 1 not working correctly.\nFixed anti-aliasing not working.\nFixed exporting collection fails in some situations.\n\nCredit: Jordyr1 (Modified repository)",
+            "downloadURL": "https://download.sonolus.com/Sonolus_0.8.13.ipa",
             "iconURL": "https://sonolus.com/icon.png",
-            "version": "0.8.12",
-            "size": 109605279
+            "version": "0.8.13",
+            "size": 110156434
         }
     ]
 }
