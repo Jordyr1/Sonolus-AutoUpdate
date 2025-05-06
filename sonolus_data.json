@@ -6,11 +6,11 @@
             "name": "Sonolus",
             "bundleIdentifier": "com.FosFenes.Sonolus",
             "subtitle": "Sonolus v0.8.13 Beta",
-            "localizedDescription": "Sonolus v0.8.13 Beta\n\nAdded tips to multiplayer.\nAdded description and banner to collection.\nImproved UI/UX.\nImproved performance.\nImproved saving items.\nImproved creating and submitting replay at result screen.\nImproved result screen graphs.\nImproved background blur performance.\nFixed audio desync in some situations on Android.\nFixed max FPS not working in some situations on Android.\nFixed skin sprite transform not working in result screen bucket graphs.\nFixed particle with duration greater than 1 not working correctly.\nFixed anti-aliasing not working.\nFixed exporting collection fails in some situations.\n\nCredit: Jordyr1 (Modified repository)",
-            "downloadURL": "https://download.sonolus.com/Sonolus_0.8.13.ipa",
+            "localizedDescription": "Sonolus v0.8.13 Beta\n\nFixed particle rendering issue.\nFixed FPS on some Android devices.\n\nCredit: Jordyr1 (Modified repository)",
+            "downloadURL": "https://download.sonolus.com/Sonolus_0.8.13_1.ipa",
             "iconURL": "https://sonolus.com/icon.png",
             "version": "0.8.13",
-            "size": 110156434
+            "size": 110186476
         }
     ]
 }
