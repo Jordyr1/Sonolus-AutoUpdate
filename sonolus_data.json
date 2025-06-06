@@ -5,12 +5,12 @@
         {
             "name": "Sonolus",
             "bundleIdentifier": "com.FosFenes.Sonolus",
-            "subtitle": "Sonolus v0.8.13 Beta",
-            "localizedDescription": "Sonolus v0.8.13 Beta\n\nFixed particle rendering issue.\nFixed FPS on some Android devices.\n\nCredit: Jordyr1 (Modified repository)",
-            "downloadURL": "https://download.sonolus.com/Sonolus_0.8.13_1.ipa",
+            "subtitle": "Sonolus v0.9.0 Beta",
+            "localizedDescription": "Sonolus v0.9.0 Beta\n\nAdded game arts.\nAdded game BGM.\nAdded about.\nAdded stream functions to engine runtime.\nImproved UI/UX.\nImproved performance.\nImproved selecting items.\nImproved sign in with WeChat.\nFixed Android permissions.\nFixed banner resetting when editing collection.\n\nCredit: Jordyr1 (Modified repository)",
+            "downloadURL": "https://download.sonolus.com/Sonolus_0.9.0.ipa",
             "iconURL": "https://sonolus.com/icon.png",
-            "version": "0.8.13",
-            "size": 110186476
+            "version": "0.9.0",
+            "size": 147667539
         }
     ]
 }
