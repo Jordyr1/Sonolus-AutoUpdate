@@ -6,11 +6,11 @@
             "name": "Sonolus",
             "bundleIdentifier": "com.FosFenes.Sonolus",
             "subtitle": "Sonolus v0.9.0 Beta",
-            "localizedDescription": "Sonolus v0.9.0 Beta\n\nAdded game arts.\nAdded game BGM.\nAdded about.\nAdded stream functions to engine runtime.\nImproved UI/UX.\nImproved performance.\nImproved selecting items.\nImproved sign in with WeChat.\nFixed Android permissions.\nFixed banner resetting when editing collection.\n\nCredit: Jordyr1 (Modified repository)",
-            "downloadURL": "https://download.sonolus.com/Sonolus_0.9.0.ipa",
+            "localizedDescription": "Sonolus v0.9.0 Beta\n\nFixed crashing on Android 14+.\nFixed color picker not working when using light theme.\n\nCredit: Jordyr1 (Modified repository)",
+            "downloadURL": "https://download.sonolus.com/Sonolus_0.9.0_1.ipa",
             "iconURL": "https://sonolus.com/icon.png",
             "version": "0.9.0",
-            "size": 147667539
+            "size": 147665656
         }
     ]
 }
