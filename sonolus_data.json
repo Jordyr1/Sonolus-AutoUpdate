@@ -5,12 +5,12 @@
         {
             "name": "Sonolus",
             "bundleIdentifier": "com.FosFenes.Sonolus",
-            "subtitle": "Sonolus v0.9.0 Beta",
-            "localizedDescription": "Sonolus v0.9.0 Beta\n\nFixed crashing on Android 14+.\nFixed color picker not working when using light theme.\n\nCredit: Jordyr1 (Modified repository)",
-            "downloadURL": "https://download.sonolus.com/Sonolus_0.9.0_1.ipa",
+            "subtitle": "Sonolus v0.9.1 Beta",
+            "localizedDescription": "Sonolus v0.9.1 Beta\n\nAdded shop.\nAdded avatar, banner, and UI themes.\nAdded natural aspect ratio support to backgrounds.\nImproved UI/UX.\nImproved performance.\nFixed race condition in multiplayer.\n\nCredit: Jordyr1 (Modified repository)",
+            "downloadURL": "https://download.sonolus.com/Sonolus_0.9.1.ipa",
             "iconURL": "https://sonolus.com/icon.png",
-            "version": "0.9.0",
-            "size": 147665656
+            "version": "0.9.1",
+            "size": 155768374
         }
     ]
 }
